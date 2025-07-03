@@ -1,7 +1,7 @@
 {
-  "name": "bs5-simple-starter",
+  "name": "yavin-office-design",
   "version": "1.0.0",
-  "description": "Simple workflow for working with and customizing Bootstrap 5",
+  "description": "A modern Bootstrap 5 website for an office space design company",
   "main": "index.js",
   "scripts": {
     "sass:build": "sass --no-source-map scss:css",

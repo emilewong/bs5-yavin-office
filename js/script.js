@@ -1,3 +1,6 @@
+/**
+ * Handles scroll events to update navbar styling and show/hide scroll-to-top button
+ */
 function userScroll() {
   const navbar = document.querySelector(".navbar");
   const toTopBtn = document.querySelector("#to-top");
@@ -14,11 +17,17 @@ function userScroll() {
   });
 }
 
+/**
+ * Scrolls the page to the top when called
+ */
 function scrollToTop() {
   document.body.scrollTop=0;
   document.documentElement.scrollTop=0;
 }
 
+/**
+ * Animates counter elements to count up to their target values
+ */
 function incrementStats() {
   const counters = document.querySelectorAll(".counter");
 

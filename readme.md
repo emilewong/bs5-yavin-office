@@ -1,44 +1,83 @@
-# Yavin Website
+# Yavin Office Design
 
-Bootstrap website for a company that creates and customizes office spaces. It could be used for just about any kind of business. It is a very light business theme with a clean design.
+A modern Bootstrap 5 website for an office space design company, featuring a clean, responsive design with custom styling and interactive elements.
 
-<img src="./images/screen.png" />
+![Yavin Office Design Preview](./images/screen.png)
+
+## Project Overview
+This repository contains a complete Bootstrap 5 website for Yavin Office Design, showcasing office space design services with a professional, modern aesthetic.
 
 ## Features
+- Responsive design optimized for all device sizes
+- Custom Sass styling with modular architecture
+- Interactive navigation with scroll effects
+- Animated statistics counter
+- Project gallery with filter functionality
+- Testimonial carousel
+- Contact form with validation
+- Inner article page template
+- Font Awesome icon integration
+- Smooth scrolling and animations
+- Cross-browser compatibility
 
-- Clean design with background images/patterns
-- Responsive design
-- Custom JavaScript for the stat counter
-- Nav scroll effect
-- Project area
-- Testimonial slider/carousel
-- Contact form
-- Inner article page
-- Font awesome icons
+## Getting Started
 
-## Usage
+### Prerequisites
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later)
 
-This website is built with [Bootstrap](https://getbootstrap.com/) and [Sass](https://sass-lang.com/). It uses [Font Awesome](https://fontawesome.com/) for icons.
+### Installation
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/yavin-office-design.git
+cd yavin-office-design
+```
 
-In order to customize this website, you need to install [Node.js](https://nodejs.org/en/). Then, clone this repository and run:
-
+2. Install dependencies
 ```bash
 npm install
 ```
 
-This will install Bootstrap, Sass and Font Awesome. To build your CSS files from Sass, run:
-
+3. Build CSS from Sass
 ```bash
 npm run sass:build
 ```
 
-To watch your Sass files for changes, run:
-
+4. Run development server with Sass watch
 ```bash
 npm run sass:watch
 ```
 
-You can add Bootstrap variables to the `bootstrap.scss` file. You can look at the file `node_modules/bootstrap/dist/scss/_variables.scss` for a list of all the variables. Do NOT edit the `variables.scss` file directly, as it will be overwritten when you update Bootstrap.
+## Project Structure
+- `index.html` - Main landing page
+- `article.html` - Sample inner page
+- `scss/` - Sass source files
+  - `bootstrap.scss` - Bootstrap variable overrides
+  - `font-awesome.scss` - Font Awesome configuration
+  - `styles.scss` - Custom styles
+- `css/` - Compiled CSS output (not tracked in Git)
+- `js/` - JavaScript files
+  - `bootstrap.bundle.min.js` - Bootstrap JS with Popper
+  - `script.js` - Custom JavaScript
+- `images/` - Image assets
+- `webfonts/` - Font Awesome web fonts
 
-To add your own custom styles, use the `styles.scss` file.
-# bs5-yavin-office
+## Customization
+- Modify Bootstrap variables in `scss/bootstrap.scss`
+- Add custom styles in `scss/styles.scss`
+- Update content in HTML files
+- Replace images in `images/` directory
+- Modify JavaScript behavior in `js/script.js`
+
+## Deployment
+1. Ensure all changes are committed
+2. Push to your GitHub repository
+3. Deploy to your preferred hosting service (Netlify, Vercel, GitHub Pages, etc.)
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+- [Bootstrap](https://getbootstrap.com/)
+- [Sass](https://sass-lang.com/)
+- [Font Awesome](https://fontawesome.com/)
